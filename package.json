@@ -1,0 +1,16 @@
+{
+  "name": "chessengine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "runnable.js",
+  "type": "module",
+  "scripts": {
+    "start": "node runnable.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "Kaloyan Blagoev",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
